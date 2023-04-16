@@ -61,7 +61,7 @@ class Para:
         self.logformat = log_format
 
 class LogParser:
-    def __init__(self, log_format, indir='../logs/', outdir='./result/',
+    def __init__(self, log_format, indir='../logsrevised/', outdir='./result/',
                  maxEventLen=200, step2Support=0, PST=0,
                  CT=0.35, lowerBound=0.25, upperBound=0.9,
                  rex=[], keep_para=True):

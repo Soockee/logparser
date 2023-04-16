@@ -83,13 +83,13 @@ benchmark_settings = {
         'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}']
         },
 
-    'Andriod': {
-        'log_file': 'Andriod/Andriod_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'CT': 0.25,
-        'lowerBound': 0.3,
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b']
-        },
+    # 'Andriod': {
+    #     'log_file': 'Andriod/Andriod_2k.log',
+    #     'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+    #     'CT': 0.25,
+    #     'lowerBound': 0.3,
+    #     'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b']
+    #     },
 
     'HealthApp': {
         'log_file': 'HealthApp/HealthApp_2k.log',
@@ -131,13 +131,13 @@ benchmark_settings = {
         'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+']
     },
 
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'CT': 0.3,
-        'lowerBound': 0.25,
-        'regex': [r'([\w-]+\.){2,}[\w-]+']
-        }
+    # 'Mac': {
+    #     'log_file': 'Mac/Mac_2k.log',
+    #     'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+    #     'CT': 0.3,
+    #     'lowerBound': 0.25,
+    #     'regex': [r'([\w-]+\.){2,}[\w-]+']
+    #     }
 }
 
 bechmark_result = []

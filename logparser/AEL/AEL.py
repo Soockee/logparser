@@ -56,7 +56,7 @@ class LogParser():
         Put logs into bins according to (# of '<*>', # of token)
 
         '''
-        for idx, log in self.df_log['Content_'].iteritems():
+        for idx, log in self.df_log['Content_'].items():
             para_count = 0
 
             tokens = log.split()

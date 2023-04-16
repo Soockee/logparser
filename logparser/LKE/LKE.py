@@ -25,7 +25,7 @@ class Para:
         self.logformat = logformat
 
 class LogParser:
-    def __init__(self, log_format, indir='../logs/', outdir='./results/', split_threshold=4, rex=[], seed=1):
+    def __init__(self, log_format, indir='../logsrevised/', outdir='./results/', split_threshold=4, rex=[], seed=1):
         self.para = Para(path=indir, split_threshold=split_threshold, rex=rex, 
                          savePath=outdir, logformat=log_format)
         self.wordLL = []

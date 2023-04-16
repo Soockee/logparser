@@ -3,7 +3,7 @@ import sys
 sys.path.append('../')
 from logparser import Drain
 
-input_dir  = '../logs/HDFS/'  # The input directory of log file
+input_dir  = '../logsrevised/HDFS/'  # The input directory of log file
 output_dir = 'Drain_result/'  # The output directory of parsing results
 log_file   = 'HDFS_2k.log'  # The input log file name
 log_format = '<Date> <Time> <Pid> <Level> <Component>: <Content>'  # HDFS log format
